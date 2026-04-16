@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // Sabhi components ko import kiya
-import { CartProvider } from './components/CartContext';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Cart from './components/Cart';
-import Login from './components/Login';
+import { CartProvider } from './Components/CartContext';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Cart from './Components/Cart';
+import Login from './Components/Login';
 
 function App() {
   // 1. Check karna ki user pehle se login hai ya nahi
